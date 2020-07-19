@@ -2,7 +2,7 @@ version: "2.0"
 services:
   certbot:
     image: certbot/certbot
-    command: ["certonly", "--register-unsafely-without-email", "--agree-tos", "--standalone", "-d", "scanner.kool.house"]
+    command: ["certonly", "--register-unsafely-without-email", "--agree-tos", "--standalone", "-d", "scan.kool.house"]
     ports:
       - "80:80"
     volumes:

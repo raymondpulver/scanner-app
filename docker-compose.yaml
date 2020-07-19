@@ -1,10 +1,10 @@
 version: '3.4'
 services:
   scanner:
-    ports:
-     - "443:443"
-     - "80:80"
     network_mode: 'host'
+    ports:
+      - "443:443"
+      - "80:80"
     user: 0:0
     image: raymondpulver/kool-scanner
     build:
