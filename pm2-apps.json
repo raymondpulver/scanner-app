@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "scanner-app",
+      "script": "yarn",
+      "args": ["start:express"],
+      "env": {
+        "NODE_ENV": "production",
+	"HOST": "10.8.0.66",
+	"PORT": "58080"
+      }
+    }
+  ]
+}
